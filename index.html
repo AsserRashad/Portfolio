@@ -77,24 +77,6 @@
         .btn:hover::before {
             left: 100%;
         }
-        .moderation-btn-glow {
-            margin: 2.5rem auto 0 auto;
-            display: block;
-            max-width: 320px;
-            width: 100%;
-            font-size: 1.25rem;
-            background: linear-gradient(90deg, #5f9ea0 0%, #778899 100%);
-            color: #fff;
-            font-weight: 700;
-            border: 2px solid #5f9ea0;
-            box-shadow: 0 0 20px #5f9ea0, 0 5px 15px rgba(119,136,153,0.4);
-            letter-spacing: 0.5px;
-            animation: mod-glow 1.5s infinite alternate;
-        }
-        @keyframes mod-glow {
-            from { box-shadow: 0 0 20px #5f9ea0, 0 5px 15px rgba(119,136,153,0.4); }
-            to { box-shadow: 0 0 40px #5f9ea0, 0 8px 25px rgba(119,136,153,0.6); }
-        }
         @media (max-width: 600px) {
             .container {
                 padding: 1rem 0.5rem;
@@ -113,11 +95,8 @@
 <body>
     <div class="container">
         <h1>Choose Your Language</h1>
-        <button class="btn" onclick="window.location.href='https://asserrashad.github.io/Portfolio-ar/'">العربية</button>
-        <button class="btn" onclick="window.location.href='https://asserrashad.github.io/Portfolio-en/'">English</button>
-        <button class="btn moderation-btn-glow" id="moderation-btn" onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=1468418037542813696&permissions=8&integration_type=0&scope=bot';">Add your Moderation System!</button>
-        <button class="btn moderation-btn-glow" id="voice-btn" onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=1474958398972891286&permissions=8&integration_type=0&scope=bot';">Add your Temporary Voice System!</button>
-        <button class="btn moderation-btn-glow" id="logging-btn" onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=1474288953732632626&permissions=8&integration_type=0&scope=bot';">Add your Logging System!</button>
+        <button class="btn" onclick="window.location.href='index-ar.html'">العربية</button>
+        <button class="btn" onclick="window.location.href='index-en.html'">English</button>
     </div>
 </body>
 </html>
